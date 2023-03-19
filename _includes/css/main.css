@@ -152,6 +152,7 @@ header .intro-text .skills {
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
+    background-color: black;
 }
 
 .navbar a:focus {
@@ -286,6 +287,7 @@ section.success {
     color: #fff;
     background: 0 0;
     transition: all .3s ease-in-out;
+    background-color: rgb(56, 56, 56);
 }
 
 .btn-outline:hover,
@@ -363,7 +365,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }};
+    background-color: rgb(56, 56, 56);
 }
 
 footer .footer-col {
@@ -372,7 +374,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }};
+    background-color: black;
 }
 
 .btn-social {
@@ -451,7 +453,8 @@ footer .footer-below {
     opacity: .3;
 }
 
-.portfolio-modal .close-modal .lr {
+/* 포트폴리오 누르면 지우는 엑스표시*/
+.portfolio-modal .close-modal .lr { 
     z-index: 1051;
     width: 1px;
     height: 75px;
@@ -473,7 +476,7 @@ footer .footer-below {
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }} !important;
+    background-color: rgb(56, 56, 56);
 }
 
 /* Fix modal mouse wheel issues */
